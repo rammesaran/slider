@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getstarted/Announcement.dart';
 import 'package:getstarted/WalkthroughScreen.dart';
 import 'package:getstarted/home.dart';
 
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: <String, WidgetBuilder>{
         '/walkthrough': (BuildContext context) => WalkthroughScreen(),
-        '/Home': (BuildContext context) => Home(),
+        '/HomeScreen': (BuildContext context) => HomeScreen(),
+        '/Announcement': (BuildContext context) => Announcement(),
       },
       theme: ThemeData(
         primaryColor: Colors.white,

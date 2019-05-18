@@ -146,7 +146,7 @@ class _WalkthroughScreenState extends State<WalkthroughScreen> {
                   fontWeight: FontWeight.w700,
                   textColor: Colors.white,
                   onPressed: () {
-                    Navigator.of(context).pushNamed("/Home");
+                    Navigator.of(context).pushNamed("/HomeScreen");
                   },
                   splashColor: Colors.black12,
                   borderColor: Colors.white,
