@@ -6,19 +6,22 @@ import 'package:getstarted/custombutton.dart';
 class WalkthroughScreen extends StatefulWidget {
   final List<Walkthrough> pages = [
     Walkthrough(
-      icon: Icons.phone_android,
+      icon: Icons.record_voice_over,
       title: "Connect",
-      description: " this is first description",
+      description:
+          " INNOVATIVE SCHOOL MANAGEMENT SOLUTION. GO PAPERLESS WITH SCHOOLSKIES.",
     ),
     Walkthrough(
-      icon: Icons.comment,
+      icon: Icons.message,
       title: "Communicate",
-      description: "Use Firebase for user management.",
+      description:
+          "SchoolSkies School Management System is more than just a sophisticated management tool with its intuitive features and excellent support system, adding a human touch to a management system.",
     ),
     Walkthrough(
-      icon: Icons.account_circle,
+      icon: Icons.cloud,
       title: "Collaborate",
-      description: "Leverage Facebook to log in user easily.",
+      description:
+          "SchoolSkies is proud to be a Microsoft partner and is an authorized reseller of Microsoft academic licenses. We work with major academic institutions in onboarding them to the Microsoft platform.",
     ),
   ];
 
@@ -117,7 +120,7 @@ class _WalkthroughScreenState extends State<WalkthroughScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Icon(
-                Icons.code,
+                Icons.mood,
                 size: 125.0,
                 color: Colors.white,
               ),

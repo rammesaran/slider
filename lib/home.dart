@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:getstarted/Announcement.dart';
+import 'package:getstarted/myhomepage.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -15,11 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
       home: Scaffold(
         drawer: UserDetailDrawer(),
         appBar: _buildAppBar(),
-        body: Container(
-          child: Center(
-            child: Text("List of push notifactions"),
-          ),
-        ),
+        body: MyHomePage(),
       ),
     );
   }

@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         '/walkthrough': (BuildContext context) => WalkthroughScreen(),
         '/HomeScreen': (BuildContext context) => HomeScreen(),
-        '/Announcement': (BuildContext context) => Announcement(),
+        '/MyHomePage': (BuildContext context) => Announcement(),
       },
       theme: ThemeData(
         primaryColor: Colors.white,
